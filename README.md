@@ -22,10 +22,10 @@
 
 #### 1. LAB CONTENTS
 
-* strain guage experiment : [click here to view](https://github.com/HanMinung/CAE/tree/main/1.%20LAB_FILES/LAB1_strain_guage)
-* combined stress experiment : [click here to view](https://github.com/HanMinung/CAE/tree/main/1.%20LAB_FILES/LAB2_combined_stress)
-* resonance frequency of multi-story building experiment : [click here to view](https://github.com/HanMinung/CAE/tree/main/1.%20LAB_FILES/LAB3_building)
-* impact hammer experiment : [click here to view](https://github.com/HanMinung/CAE/tree/main/1.%20LAB_FILES/LAB4_impact_hammer)
+* strain guage experiment : [click here to view](https://github.com/HanMinung/CAE/tree/main/1.%20LAB%20FILES/LAB1_strain_guage)
+* combined stress experiment : [click here to view](https://github.com/HanMinung/CAE/tree/main/1.%20LAB%20FILES/LAB2_combined_stress)
+* resonance frequency of multi-story building experiment : [click here to view](https://github.com/HanMinung/CAE/tree/main/1.%20LAB%20FILES/LAB3_building)
+* impact hammer experiment : [click here to view](https://github.com/HanMinung/CAE/tree/main/1.%20LAB%20FILES/LAB4_impact_hammer)
 
 
 
