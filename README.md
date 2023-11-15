@@ -26,3 +26,23 @@
 * combined stress experiment : [click here to view](https://github.com/HanMinung/CAE/tree/main/1.%20LAB_FILES/LAB2_combined_stress)
 * resonance frequency of multi-story building experiment : [click here to view](https://github.com/HanMinung/CAE/tree/main/1.%20LAB_FILES/LAB3_building)
 * impact hammer experiment : [click here to view](https://github.com/HanMinung/CAE/tree/main/1.%20LAB_FILES/LAB4_impact_hammer)
+
+
+
+### 2. Simulations
+
+* stress concentration simulation of a shape with hole : [click here to view](https://github.com/HanMinung/CAE/tree/main/2.%20SIMULATIONS/assignment_1)
+* fatigue analysis based on GOODMAN theory (fully reverse / zero based / ratio / historical) : [click here to view](https://github.com/HanMinung/CAE/tree/main/2.%20SIMULATIONS/assignment_2)
+
+* structural analysis of gantry crane : [click here to view](https://github.com/HanMinung/CAE/tree/main/2.%20SIMULATIONS/assignment_3)
+
+* structural analysis of overload protection device : [click here to view](https://github.com/HanMinung/CAE/tree/main/2.%20SIMULATIONS/assignment_4)
+
+* structural analysis of coal compressor : [click here to view](https://github.com/HanMinung/CAE/tree/main/2.%20SIMULATIONS/assignment_5)
+* thermal analysis of turbine blade (static / transient) : [click here to view](https://github.com/HanMinung/CAE/tree/main/2.%20SIMULATIONS/assignment_6)
+
+
+
+### 3. Final project
+
+will be updated...
