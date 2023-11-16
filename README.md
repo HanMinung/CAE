@@ -12,7 +12,7 @@
 
 
 
-​			This repository introduces the process and results of structural analysis of various machine shapes using finite element analysis. The tool used for finite element analysis is ansys (2023 version). I mainly analyzed the maximum stress and degree of deformation of the stress acting on machine elements. In addition, it deals with the fatigue analysis of the Goodman diagram and mainly deals with simulation of the resonance frequency measurement of the system based on the modal analysis method in simulation program. In addition, it contains experiments on strain gauge, combined stress, resonance frequency of multi story building, impact hammer test, etc. The experiments mainly involved comparing theoretical values, experimental values, and simulation values, and all relevant reports are included. Lastly, the final project deals with structural analysis issues regarding the maximum stress on the body frame and deflection of the motor connection of a self-made electric vehicle. Furthermore, we will look for improvements to the motor's fixed points, perform structural analysis on the improved model, and evaluate its performance.
+​			This repository introduces the process and results of structural analysis of various machine shapes using finite element analysis. The tool used for finite element analysis is ansys (2023 version). I mainly analyzed the maximum stress and degree of deformation of the stress acting on machine elements. In addition, it deals with the fatigue analysis of the Goodman diagram and mainly deals with simulation of the resonance frequency measurement of the system based on the modal analysis method in simulation program. In addition, it contains experiments on strain gauge, combined stress, resonance frequency of multi story building, impact hammer test, etc. The experiments mainly involved comparing theoretical values, experimental values, and simulation values, and all relevant reports are included. Lastly, the final project deals with structural analysis issues regarding the maximum stress on the body frame and deflection of the motor connection of a d-made electric vehicle. Furthermore, we will look for improvements to the motor's fixed points, perform structural analysis on the improved model, and evaluate its performance.
 
 * Most ansys files are attached with **.wbpz** extension.
 
@@ -45,4 +45,11 @@
 
 ### 3. Final project
 
-will be updated...
+​			The final project aims to analyze the motor part of the self-made electric vehicle. Initially, the motor case had two-point contacts. And the motor shaft is connected with small chain sprocket, and that is connected with chain with 10mm pitch specification. The factors that I calculated to analyze the force exerted on the chain sprocket are as follows:
+
+* Maximum rpm : 2600 [revolution per minute] --> angular velocity = 272.2 [rad/s]
+* rated power : 7 [kW]
+* Diameter of small sprocket : 69.12 [mm]
+
+Following that, the force that I calculated which is exerted on the surface of the chain sprocket is about 1.0[kN]. This force has both horizontal and vertical component since chain has a horizontal angle. The problem in this contact condition is that with two point contact, the motor case has a horizontal rotation, so the connection between the chain and the sprocket gets weak where it is  a highly dangerous factor to operate the car. So, this project aims to improve the contact condition from two points to  three points contact condition. And to analyze the improved performance, the process of analyzing the deformation and the maximum stress and the fatigue analysis is introduced.
+
