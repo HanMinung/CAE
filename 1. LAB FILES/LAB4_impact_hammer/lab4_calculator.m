@@ -4,34 +4,46 @@ al_cant_fft = readmatrix('./exp_data/aluminium_cantilever_fft.txt');
 st_cant_fft = readmatrix('./exp_data/steel_cantilever_fft.txt');
 br_cant_fft = readmatrix('./exp_data/brass_cantilever_fft.txt');
 st_fix_fft  = readmatrix('./exp_data/steel_fixedsupport_fft.txt');
+st_damping  = readmatrix('./exp_data/steel_damping_ratio_time.txt');
 
 freq = al_cant_fft(8:end-1, 1);
+time = st_damping(8:end-1, 1);
+
+% figure;
+% plot(freq, al_cant_fft(8:end-1, 2), 'r-',lineWidth = 3);
+% grid minor;     xlabel("frequency [Hz]");       ylabel("magnitude [-]");
+% title("FFT result of aluminum with cantilever beam condition");     legend("Al / cantilever", fontSize = 12);
+% 
+% figure;
+% plot(freq, st_cant_fft(8:end-1, 2), 'r-',lineWidth = 3);
+% grid minor;     xlabel("frequency [Hz]");       ylabel("magnitude [-]");
+% title("FFT result of steel with cantilever beam condition");     legend("st / cantilever", fontSize = 12);
+% 
+% figure;
+% plot(freq, br_cant_fft(8:end-1, 2), 'r-',lineWidth = 3);
+% grid minor;     xlabel("frequency [Hz]");       ylabel("magnitude [-]");
+% title("FFT result of brass with cantilever beam condition");     legend("br / cantilever", fontSize = 12);
+% 
+% figure;
+% plot(freq, st_fix_fft(8:end-1, 2), 'r-',lineWidth = 3);
+% grid minor;     xlabel("frequency [Hz]");       ylabel("magnitude [-]");
+% title("FFT result of steel with fixed boundary condition");     legend("st / fixed", fontSize = 12);
 
 figure;
-plot(freq, al_cant_fft(8:end-1, 2), 'r-',lineWidth = 3);
-grid minor;     xlabel("frequency [Hz]");       ylabel("magnitude [-]");
-title("FFT result of aluminum with cantilever beam condition");     legend("Al / cantilever", fontSize = 12);
+plot(time, st_damping(8:end-1, 2), 'r-',lineWidth = 2);
+grid minor;     xlabel("frequency [Hz]");       ylabel("magnitude [-]");        xlim([0, 4]);
+title("Time domain signal of cantilever beam");   
 
 figure;
-plot(freq, st_cant_fft(8:end-1, 2), 'r-',lineWidth = 3);
-grid minor;     xlabel("frequency [Hz]");       ylabel("magnitude [-]");
-title("FFT result of steel with cantilever beam condition");     legend("st / cantilever", fontSize = 12);
-
-figure;
-plot(freq, br_cant_fft(8:end-1, 2), 'r-',lineWidth = 3);
-grid minor;     xlabel("frequency [Hz]");       ylabel("magnitude [-]");
-title("FFT result of brass with cantilever beam condition");     legend("br / cantilever", fontSize = 12);
-
-figure;
-plot(freq, st_fix_fft(8:end-1, 2), 'r-',lineWidth = 3);
-grid minor;     xlabel("frequency [Hz]");       ylabel("magnitude [-]");
-title("FFT result of steel with fixed boundary condition");     legend("st / fixed", fontSize = 12);
+plot(time, st_damping(8:end-1, 2), 'r-',lineWidth = 2);
+grid minor;     xlabel("Time [sec]");       ylabel("voltage [V]");        xlim([0.9, 1.8]);
+title("Time domain signal of cantilever beam");     
 
 %% Theoretical value
 clear;
 
 cant_w     =  19e-3;     % [m]
-cant_t     =  3e-3;      % [m]
+cant_t     =  3.2e-3;      % [m]
 cant_l     =  600e-3;    % [m]
 
 fix_w      =  19e-3;     % [m]
@@ -67,4 +79,5 @@ for Idx = 1 : 4
     freq_st_fix(Idx)  = ometa_st_fix(Idx)/(2*pi);
 
 end
+
 
