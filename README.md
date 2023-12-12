@@ -45,6 +45,8 @@
 
 ### 3. Final project
 
+* project report (pdf) : [click here to view](https://github.com/HanMinung/CAE/blob/main/3.%20FINAL%20PROJECT/Final_project_report.pdf)
+
 ​			The final project aims to analyze the motor part of the self-made electric vehicle. Initially, the motor case had two-point contacts. And the motor shaft is connected with small chain sprocket, and that is connected with chain with 10mm pitch specification. The factors that I calculated to analyze the force exerted on the chain sprocket are as follows:
 
 * Maximum rpm : 2600 [revolution per minute] --> angular velocity = 272.2 [rad/s]
