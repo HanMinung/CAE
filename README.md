@@ -55,4 +55,4 @@
 
 Following that, the force that I calculated which is exerted on the surface of the chain sprocket is about 1.0[kN]. This force has both horizontal and vertical component since chain has a horizontal angle. The problem in this contact condition is that with two point contact, the motor case has a horizontal rotation, so the connection between the chain and the sprocket gets weak where it is  a highly dangerous factor to operate the car. So, this project aims to improve the contact condition from two points to  three points contact condition. And to analyze the improved performance, the process of analyzing the deformation and the maximum stress and the fatigue analysis is introduced.
 
-![image](https://github.com/HanMinung/CAE/assets/99113269/774c9766-a1f3-4524-951c-6a09e5877002)
+![학술대회_포스터_A0](https://github.com/HanMinung/CAE/assets/99113269/0d49d579-ddd7-4d83-a06a-8293adc40cf0)
